@@ -1,6 +1,6 @@
 {
   "name": "socute",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Small and simple routing system for websocket server and client",
   "main": "index.js",
   "browser": "browser.js",
