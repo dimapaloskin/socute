@@ -4,6 +4,12 @@
 
 > Small and simple routing system for websocket server and client
 
+## Install
+
+```sh
+npm install socute
+```
+
 ## Usage
 
 ### Server
