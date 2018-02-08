@@ -1,5 +1,7 @@
 # Socute
 
+[![Build Status](https://travis-ci.org/dimapaloskin/socute.svg?branch=master)](https://travis-ci.org/dimapaloskin/socute)
+
 > Small and simple routing system for websocket server and client
 
 ## Usage
