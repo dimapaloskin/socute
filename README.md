@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/dimapaloskin/socute.svg?branch=master)](https://travis-ci.org/dimapaloskin/socute)
 
-> Small and simple routing system for websocket server and client
+> Small and simple routing system for websocket server and client (good with [sockette](https://github.com/lukeed/sockette))
 
 ## Install
 
