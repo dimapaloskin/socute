@@ -5,7 +5,7 @@ class Router {
 
   getHandler (path) {
     if (!path.includes('/')) {
-      return this.handlers[path]
+      return this.handlers[path] || null
     }
 
     const pathArray = path.split('/')
