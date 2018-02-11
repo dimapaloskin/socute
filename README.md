@@ -46,7 +46,7 @@ socute.on('connection', (socket, req) => {
 ### Browser client
 
 ```js
-const { Client, send } = require('socute')
+import { Client, send } from 'socute'
 
 const handlers = {
   users: {
@@ -58,6 +58,7 @@ const handlers = {
 
 const ws = new WebSocket('ws://localhost:31337')
 const client = new Client(ws, { handlers })
+
 client.on('open', () => {
   send(client, 'hello')
   send(client, 'users/ping', { reason: 'ping' })
